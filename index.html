@@ -12,17 +12,24 @@
 
 <body>
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-top">
-		<div class="container top-container">
-		  <h1 class="navbar-brand" >Matthew Brennecke</h1>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<h1 class="navbar-brand">Matthew Brennecke</h1>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-
-		  </div>
-		</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav mr-auto">
+				  <a class="nav-item nav-link active" id="about" href="#">About <span id="about-span" class="sr-only">(current)</span></a>
+				  <a class="nav-item nav-link" id="portfolio" href="#">Portfolio<span id="portfolio-span"></span></a>
+				</div>
+			
+			<form class="form-inline my-2 my-lg-0 ">
+				<input type="text" class="form-control" id="add-btn-input" placeholder="Add a subject" >
+				<button type="submit" class="btn btn-primary btn-sm " id="add-btn">Add</button>
+			</form>
+			</div>
+		</div>	
 	</nav>
 		
 	<div class="foot-contain">
@@ -44,8 +51,8 @@
 			<div class="row">
 				<div class="col-sm"><img src="assets/images/qa.jpg" alt="trivia game" class="image img-responsive" />
 			<h2 class="portfolio-p"><a href="https://mbrennecke.github.io/TriviaGame/">Trivia Game</a></h2></div>
-				<div class="col-sm"><img src="assets/images/giftastic.jpg" alt="Giftastic" class="image img-responsive" />
-			<h2 class="portfolio-p"><a href="https://mbrennecke.github.io/Giftastic/">Giftastic</a></h2></div>
+				<div class="col-sm"><img src="assets/images/rutgers.jpg" alt="Rutgers info widget" class="image img-responsive" />
+			<h2 class="portfolio-p"><a href="#">Rutgers info widget</a></h2></div>
 				<div class="col-sm"></div>
 			</div>
 			<div class="row">
@@ -60,7 +67,7 @@
 		<p id="foot">Copyright 2018</p>
 	</nav>
 	
-
+	<script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
