@@ -23,6 +23,12 @@ $(document).ready(function() {
 				$("#portfolio-span").text("(current)");
 				portfolio();
 				break;
+			case "contact":
+				$(this).addClass("active");
+				$("#contact-span").addClass("sr-only");
+				$("#contact-span").text("(current)");
+				contact();
+				break;
 			default:
 				break;
 		}
@@ -42,7 +48,7 @@ $(document).ready(function() {
 		'<p>I bring a Bachelor’s Degree in Computer Information Systems as well as several technical certifications. When challenged with a stressful environment I am able to tap deep reserves and rise above.</p>' +
 		'<p>My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application. </p>' +
 		'</div></div>'
-		)
+		);
 	}
 	
 	function portfolio() {
@@ -85,7 +91,34 @@ $(document).ready(function() {
 			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
-		)
+		);
 	}
+	
+	function contact() {
+		$(".body-container").empty();
+		$(".body-container").append(
+			'<div class="row">' +
+			'<div class="col">' +
+			'<h2>Contact</h2>' +
+			'</div></div>' +
+			'<div class="row">' +
+			'<div class="col">' +
+			'<div class="alert alert-warning" role="alert">' +
+			'This is not yet wired up, so entering data will not do anything.</div>' +
+			'<form>' +
+			 '<div class="form-group">' +
+			'<label for="name">Name:</label>' +
+			'<input type="text" class="form-control" id="name" placeholder="John Smith"></div>' +
+			'<div class="form-group">' +
+			'<label for="email">Email:</label>' +
+			'<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com"></div>' +
+			'<div class="form-group">' +
+			'<label for="message">Message:</label>' +
+			'<textarea class="form-control" id="message" rows="5"></textarea></div>' +
+			'<button type="submit" class="btn btn-primary">Submit</button>' +
+			'</form></div></div>'
+		);
+	}
+	
 	about();
 });
