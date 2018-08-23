@@ -85,9 +85,9 @@ $(document).ready(function() {
 			'<a href="https://mbrennecke.github.io/train-scheduler/">Train Schedule</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<img src="assets/images/rock-paper-scissors.jpg" alt="rock paper scissors" class="image img-responsive" />' +
+			'<img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' +
-			'<a href="#">Rock Paper Scissors</a>' + 
+			'<a href="https://jpmatlock.github.io/Group-Project-1/">Beer Bound</a>' + 
 			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
