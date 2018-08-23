@@ -69,8 +69,7 @@ h2 {
 	color: #fff;
 	font-size: .7em;
 	margin: 0 auto;
-	padding: 1rem 0 1rem;
-
+	padding: .3rem 0 .1rem;
   }
   
 .footer {
@@ -125,6 +124,15 @@ h2.portfolio-p a {
 .navbar-light .navbar-toggler {
     color: #18435A;
     border-color: #18435A;
+}
+
+ul {
+    width: 10rem;
+    margin: auto;
+}
+
+li {
+	list-style-type: none;
 }
 
 @media only screen 
