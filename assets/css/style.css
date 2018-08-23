@@ -122,21 +122,21 @@ h2.portfolio-p a {
 	font-weight: 200;
 }
 
-@media (min-width: 1200px){
-.container {
-    max-width: 1140px;
-}}
-@media (min-width: 992px){
-.container {
-    max-width: 960px;
-}}
-@media (min-width: 768px){
-.container {
-    max-width: 720px;
-}}
-@media (min-width: 576px){
-.main p {
-	font-size:2em;
-}
+/* @media (min-width: 1200px){ */
+/* .container { */
+    /* max-width: 1140px; */
+/* }} */
+/* @media (min-width: 992px){ */
+/* .container { */
+    /* max-width: 960px; */
+/* }} */
+/* @media (min-width: 768px){ */
+/* .container { */
+    /* max-width: 720px; */
+/* }} */
+/* @media (min-width: 576px){ */
+/* .main p { */
+	/* font-size:2em; */
+/* } */
 
-}
+/* } */
