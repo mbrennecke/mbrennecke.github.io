@@ -127,7 +127,7 @@ h2.portfolio-p a {
     border-color: #18435A;
 }
 
-@media (min-width: 576px) {
+@media (min-width:  768px) {
 	h2, h1.navbar-brand {
 		font-size: 2em;
 	}
@@ -142,7 +142,7 @@ h2.portfolio-p a {
 		font-size: 1.5em;
 	}
 }
-
+/*
 @media (min-width: 768px) {
 	h2 {
 		font-size: 1.5em;
@@ -156,4 +156,4 @@ h2.portfolio-p a {
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 1.5em;
 	}
-}
+}*/
