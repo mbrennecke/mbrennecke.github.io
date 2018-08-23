@@ -1,4 +1,19 @@
 $(document).ready(function() {
+	
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDpr5S5eaKzkMFysw5-pp6yO9YKAbY6REw",
+    authDomain: "portfolio-contacts-930d4.firebaseapp.com",
+    databaseURL: "https://portfolio-contacts-930d4.firebaseio.com",
+    projectId: "portfolio-contacts-930d4",
+    storageBucket: "",
+    messagingSenderId: "601663076640"
+  };
+  firebase.initializeApp(config);
+
+
+
 
 //Event listner for nav links
 	$(".nav-item").on("click", function(event) {
@@ -42,11 +57,11 @@ $(document).ready(function() {
 		'<h2>About Me</h2>' + 
 		'</div></div>' +
 		'<div class="row">' +
-		'<div class="col">' +
+		'<div class="col main">' +
 		'<img src="assets/images/headshot.jpg" alt="Photo of Matthew Brennecke" id="headshot" class="img-responsive"/>' +
 		'<p>I am working towards a career in full stack development, but enjoy the creativity of front end and the logic of backend design. Strong HTML, CSS, and Javascript/jQuery skills leveraged to make complex back end for clean front end applications in my portfolio. </p>' +
-		'<p>I bring a Bachelor’s Degree in Computer Information Systems as well as several technical certifications. When challenged with a stressful environment I am able to tap deep reserves and rise above.</p>' +
-		'<p>My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application. </p>' +
+		'<p>I offer an educationally diverse background culminating in a Bachelors Degree in Computer Information Technology with a minor in Business Informatics.</p>' +
+		'<p>My demonstrated work ethic, professional experience, strong attention to detail, and ability to produce top quality results in deadline driven environments will allow me to succeed in any organization. My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application.</p>' +
 		'</div></div>'
 		);
 	}
@@ -58,23 +73,32 @@ $(document).ready(function() {
 			'<div class="col-sm">' +
 			'<img src="assets/images/words.jpg" alt="words" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' + 
-			'<a href="https://mbrennecke.github.io/Word-Guess-Game/">Word Guess Game</a>' + 
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/unit-4-game/">Fantasy Card Game</a>' + 
+			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank">Fantasy Card Game</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/unit-4-game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm"></div>' +
 			'</div><div class="row">' +
 			'<div class="col-sm">' + 
 			'<img src="assets/images/qa.jpg" alt="trivia game" class="image img-responsive" />' + 
 			'<h2 class="portfolio-p">' + 
-			'<a href="https://mbrennecke.github.io/TriviaGame/">Trivia Game</a></h2>' + 
+			'<a href="https://mbrennecke.github.io/TriviaGame/" target="_blank">Trivia Game</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/TriviaGame" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2>' + 
 			'</div>	<div class="col-sm">' + 
 			'<img src="assets/images/giftastic.jpg" alt="Giftastic" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/Giftastic/">Giftastic</a>' +
+			'<a href="https://mbrennecke.github.io/Giftastic/" target="_blank">Giftastic</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'</div></div>' + 
@@ -82,12 +106,16 @@ $(document).ready(function() {
 			'<div class="col-sm">' +
 			'<img src="assets/images/train.jpg" alt="model train" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/train-scheduler/">Train Schedule</a>' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" />' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://jpmatlock.github.io/Group-Project-1/">Beer Bound</a>' + 
+			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank">Beer Bound</a>' + 
+			'<br/>' +
+			'<a href="https://github.com/pmatlock/Group-Project-1" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
