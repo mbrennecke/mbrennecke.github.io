@@ -12,7 +12,7 @@ $(document).ready(function() {
   };
   firebase.initializeApp(config);
 
-
+	var database = firebase.database();
 
 
 //Event listner for nav links
@@ -62,6 +62,7 @@ $(document).ready(function() {
 		'<p>I am working towards a career in full stack development, but enjoy the creativity of front end and the logic of backend design. Strong HTML, CSS, and Javascript/jQuery skills leveraged to make complex back end for clean front end applications in my portfolio. </p>' +
 		'<p>I offer an educationally diverse background culminating in a Bachelors Degree in Computer Information Technology with a minor in Business Informatics.</p>' +
 		'<p>My demonstrated work ethic, professional experience, strong attention to detail, and ability to produce top quality results in deadline driven environments will allow me to succeed in any organization. My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application.</p>' +
+		'<ul><li><a href="https://github.com/mbrennecke" class="repo" target="_blank">-Github Repo-</a>
 		'</div></div>'
 		);
 	}
@@ -71,14 +72,14 @@ $(document).ready(function() {
 		$(".body-container").append(
 		'<div class="row">' +
 			'<div class="col-sm">' +
-			'<img src="assets/images/words.jpg" alt="words" class="image img-responsive" />' +
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' + 
 			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" />' +
+			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank"><img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank">Fantasy Card Game</a>' +
 			'<br/>' +
@@ -87,14 +88,14 @@ $(document).ready(function() {
 			'<div class="col-sm"></div>' +
 			'</div><div class="row">' +
 			'<div class="col-sm">' + 
-			'<img src="assets/images/qa.jpg" alt="trivia game" class="image img-responsive" />' + 
+			'<a href="https://mbrennecke.github.io/TriviaGame/" target="_blank"><img src="assets/images/qa.jpg" alt="trivia game" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' + 
 			'<a href="https://mbrennecke.github.io/TriviaGame/" target="_blank">Trivia Game</a>' +
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/TriviaGame" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2>' + 
 			'</div>	<div class="col-sm">' + 
-			'<img src="assets/images/giftastic.jpg" alt="Giftastic" class="image img-responsive" />' +
+			'<a href="https://mbrennecke.github.io/Giftastic/" target="_blank"><img src="assets/images/giftastic.jpg" alt="Giftastic" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://mbrennecke.github.io/Giftastic/" target="_blank">Giftastic</a>' +
 			'<br/>' +
@@ -104,14 +105,14 @@ $(document).ready(function() {
 			'</div></div>' + 
 			'<div class="row">' +
 			'<div class="col-sm">' +
-			'<img src="assets/images/train.jpg" alt="model train" class="image img-responsive" />' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" />' +
+			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank"><img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" /></a>' + 
 			'<h2 class="portfolio-p">' +
 			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank">Beer Bound</a>' + 
 			'<br/>' +
@@ -131,8 +132,6 @@ $(document).ready(function() {
 			'</div></div>' +
 			'<div class="row">' +
 			'<div class="col">' +
-			'<div class="alert alert-warning" role="alert">' +
-			'This is not yet wired up, so entering data will not do anything.</div>' +
 			'<form>' +
 			 '<div class="form-group">' +
 			'<label for="name">Name:</label>' +
@@ -143,10 +142,31 @@ $(document).ready(function() {
 			'<div class="form-group">' +
 			'<label for="message">Message:</label>' +
 			'<textarea class="form-control" id="message" rows="5"></textarea></div>' +
-			'<button type="submit" class="btn btn-primary">Submit</button>' +
+			'<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>' +
 			'</form></div></div>'
 		);
 	}
+	
+	$(document).on("click", "#btn-submit", function(event) {
+		event.preventDefault();
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var message = $("#message").val();
+		
+		if (name == "" || email == "" || message == "" ) {
+			return;
+		}
+		
+		database.ref().push({
+        name: name,
+        email: email,
+        message: message,
+        dateAdded: firebase.database.ServerValue.TIMESTAMP,
+    });
+	$("#name").val("");
+    $("#email").val("");
+    $("#message").val("");
+	});
 	
 	about();
 });
