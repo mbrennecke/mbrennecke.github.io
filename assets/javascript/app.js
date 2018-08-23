@@ -71,11 +71,12 @@ $(document).ready(function() {
 		$(".body-container").append(
 		'<div class="row">' +
 			'<div class="col-sm">' +
-			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
-			'<h2 class="portfolio-p">' + 
-			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
+			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank"><img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" /></a>' + 
+			'<h2 class="portfolio-p">' +
+			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank">Beer Bound</a>' + 
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/pmatlock/Group-Project-1" class="repo" target="_blank">-Github Repo-</a>' +
+			
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank"><img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" /></a>' +
@@ -111,11 +112,11 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank"><img src="assets/images/beer-buddies.jpg" alt="Beer Bound" class="image img-responsive" /></a>' + 
-			'<h2 class="portfolio-p">' +
-			'<a href="https://jpmatlock.github.io/Group-Project-1/" target="_blank">Beer Bound</a>' + 
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' + 
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
 			'<br/>' +
-			'<a href="https://github.com/pmatlock/Group-Project-1" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
