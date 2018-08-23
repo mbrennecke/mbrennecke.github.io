@@ -127,7 +127,10 @@ h2.portfolio-p a {
     border-color: #18435A;
 }
 
-@media (min-width:  768px) {
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
 	h2, h1.navbar-brand {
 		font-size: 2em;
 	}
