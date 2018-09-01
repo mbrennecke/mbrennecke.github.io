@@ -107,7 +107,13 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'</div></div>' + 
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' +
+			'</div>' + 
 			'<div class="row">' +
 			'<div class="col-sm">' +
 			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
