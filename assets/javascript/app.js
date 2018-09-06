@@ -85,7 +85,7 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/unit-4-game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://github.com/mbrennecke/liri-node-app" target="_blank"><img src="assets/images/liri.jpg" alt="Liri cmd" class="image img-responsive" /></a>' +
+			'<a href="https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing" target="_blank"><img src="assets/images/liri.jpg" alt="Liri cmd" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://github.com/mbrennecke/liri-node-app" target="_blank">Liri node app</a>' +
 			'<br/>' +
@@ -107,7 +107,7 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
 			'<br/>' +
