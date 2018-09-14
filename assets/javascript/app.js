@@ -107,19 +107,19 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/liri.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank">Burgertime</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/burgertime" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div></div>' + 
+			'<div class="row">' +
+			'<div class="col-sm">' +
 			'<a href="https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing" target="_blank"><img src="assets/images/liri.jpg" alt="Liri cmd" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://github.com/mbrennecke/liri-node-app" target="_blank">Liri node app</a>' +
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/liri-node-app" class="repo" target="_blank">-Github Repo-</a>' +
-			'</h2></div></div>' + 
-			'<div class="row">' +
-			'<div class="col-sm">' +
-			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
-			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
-			'<br/>' +
-			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
@@ -143,7 +143,13 @@ $(document).ready(function() {
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
-			'<div class="col-sm"></div>' + 
+			'<div class="col-sm">' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
 		);
