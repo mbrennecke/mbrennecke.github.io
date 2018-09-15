@@ -107,7 +107,7 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/liri.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/burgertime2.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank">Burgertime</a>' +
 			'<br/>' +
