@@ -85,21 +85,21 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/unit-4-game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing" target="_blank"><img src="assets/images/liri.jpg" alt="Liri cmd" class="image img-responsive" /></a>' +
-			'<h2 class="portfolio-p">' +
-			'<a href="https://github.com/mbrennecke/liri-node-app" target="_blank">Liri node app</a>' +
+			'<a href="https://tranquil-retreat-98680.herokuapp.com/" target="_blank"><img src="assets/images/friend.jpg" alt="friend finder" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' + 
+			'<a href="https://tranquil-retreat-98680.herokuapp.com/" target="_blank">Friend Finder</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/liri-node-app" class="repo" target="_blank">-Github Repo-</a>' +
-			'</h2></div>' +
-			'</div><div class="row">' +
+			'<a href="https://github.com/mbrennecke/friend-finder" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div></div>' +
+			'<div class="row">' +
 			'<div class="col-sm">' + 
 			'<a href="https://mbrennecke.github.io/TriviaGame/" target="_blank"><img src="assets/images/qa.jpg" alt="trivia game" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' + 
 			'<a href="https://mbrennecke.github.io/TriviaGame/" target="_blank">Trivia Game</a>' +
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/TriviaGame" class="repo" target="_blank">-Github Repo-</a>' +
-			'</h2>' + 
-			'</div>	<div class="col-sm">' + 
+			'</h2></div>' +
+			'<div class="col-sm">' + 
 			'<a href="https://mbrennecke.github.io/Giftastic/" target="_blank"><img src="assets/images/giftastic.jpg" alt="Giftastic" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://mbrennecke.github.io/Giftastic/" target="_blank">Giftastic</a>' +
@@ -107,20 +107,19 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/burgertime2.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank">Burgertime</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/constructor-word-guess" class="repo" target="_blank">-Github Repo-</a>' +
-			'</h2></div>' +
-			'</div>' + 
+			'<a href="https://github.com/mbrennecke/burgertime" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div></div>' + 
 			'<div class="row">' +
 			'<div class="col-sm">' +
-			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
+			'<a href="https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing" target="_blank"><img src="assets/images/liri.jpg" alt="Liri cmd" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
+			'<a href="https://github.com/mbrennecke/liri-node-app" target="_blank">Liri node app</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/liri-node-app" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
@@ -128,6 +127,28 @@ $(document).ready(function() {
 			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' + 
+			'<div class="col-sm">' +
+			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div></div>'+
+			'<div class="row">' +
+			'<div class="col-sm">'+
+			'<a href="https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing target="_blank"><img src="assets/images/bamazon.jpg" alt="bamazon" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' + 
+			'<a href="hhttps://github.com/mbrennecke/bamazon target="_blank">Bamazon node app</a>' + 
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' +
+			'<div class="col-sm">' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
 			'<div class="col-sm"></div></div>'
 		
@@ -177,6 +198,7 @@ $(document).ready(function() {
 	$("#name").val("");
     $("#email").val("");
     $("#message").val("");
+	$('#thankyou').modal();
 	});
 	
 	about();
