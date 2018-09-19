@@ -129,11 +129,11 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
 			'<div class="col-sm">' +
-			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<a href="https://dry-meadow-80045.herokuapp.com/" target="_blank"><img src="assets/images/burgertime.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
+			'<a href="https://dry-meadow-80045.herokuapp.com/" target="_blank">Burgertime Sequelized</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/constructor-word-guess" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/sequelizedburger" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div></div>'+
 			'<div class="row">' +
 			'<div class="col-sm">'+
@@ -144,13 +144,20 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
+			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" target="_blank">Word Guess node app</a>' +
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/constructor-word-guess" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' +
+			'<div class="col-sm">' +
 			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank"><img src="assets/images/train.jpg" alt="model train" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
 			'<a href="https://mbrennecke.github.io/train-scheduler/" target="_blank">Train Schedule</a>' +
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
-			'<div class="col-sm"></div></div>'
+			'</div>'
 		
 		);
 	}
