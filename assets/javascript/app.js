@@ -161,9 +161,9 @@ $(document).ready(function() {
 			'</div>' +
 			'<div class="row">' +
 			'<div class="col-sm">'+
-			'<a href="https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing target="_blank"><img src="assets/images/bamazon.jpg" alt="bamazon" class="image img-responsive" /></a>' +
+			'<a href="https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing" target="_blank"><img src="assets/images/bamazon.jpg" alt="bamazon" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' + 
-			'<a href="hhttps://github.com/mbrennecke/bamazon target="_blank">Bamazon node app</a>' + 
+			'<a href="hhttps://github.com/mbrennecke/bamazon" target="_blank">Bamazon node app</a>' + 
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
