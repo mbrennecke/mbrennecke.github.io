@@ -78,11 +78,11 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Group-Project-1" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank"><img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" /></a>' +
+			'<a href="https://lit-savannah-32423.herokuapp.com/" target="_blank"><img src="assets/images/pencilme.jpg" alt="Pencil Me In" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank">Fantasy Card Game</a>' +
+			'<a href="https://lit-savannah-32423.herokuapp.com/" target="_blank">Pencil Me In</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/unit-4-game" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/group-project-2" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<a href="https://tranquil-retreat-98680.herokuapp.com/" target="_blank"><img src="assets/images/friend.jpg" alt="friend finder" class="image img-responsive" /></a>' +
@@ -107,11 +107,11 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/Giftastic" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/burgertime2.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
+			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank"><img src="assets/images/rpg.jpg" alt="RPG game" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' +
-			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank">Burgertime</a>' +
+			'<a href="https://mbrennecke.github.io/unit-4-game/" target="_blank">Fantasy Card Game</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/burgertime" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/unit-4-game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div></div>' + 
 			'<div class="row">' +
 			'<div class="col-sm">' +
@@ -122,11 +122,11 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/liri-node-app" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
-			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
-			'<h2 class="portfolio-p">' + 
-			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank"><img src="assets/images/burgertime2.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' +
+			'<a href="https://tranquil-waters-40302.herokuapp.com/" target="_blank">Burgertime</a>' +
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/burgertime" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
 			'<div class="col-sm">' +
 			'<a href="https://dry-meadow-80045.herokuapp.com/" target="_blank"><img src="assets/images/burgertime.jpg" alt="Burgertime" class="image img-responsive" /></a>' +
@@ -136,12 +136,12 @@ $(document).ready(function() {
 			'<a href="https://github.com/mbrennecke/sequelizedburger" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div></div>'+
 			'<div class="row">' +
-			'<div class="col-sm">'+
-			'<a href="https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing target="_blank"><img src="assets/images/bamazon.jpg" alt="bamazon" class="image img-responsive" /></a>' +
+			'<div class="col-sm">' +
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank"><img src="assets/images/words.jpg" alt="words" class="image img-responsive" /></a>' +
 			'<h2 class="portfolio-p">' + 
-			'<a href="hhttps://github.com/mbrennecke/bamazon target="_blank">Bamazon node app</a>' + 
+			'<a href="https://mbrennecke.github.io/Word-Guess-Game/ target="_blank">Word Guess Game</a>' + 
 			'<br/>' +
-			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
+			'<a href="https://github.com/mbrennecke/Word-Guess-Game" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' +
 			'<div class="col-sm">' +
 			'<a href="https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing" target="_blank"><img src="assets/images/wordguess2.jpg" alt="Word Guess Game 2" class="image img-responsive" /></a>' +
@@ -157,6 +157,19 @@ $(document).ready(function() {
 			'<br/>' +
 			'<a href="https://github.com/mbrennecke/train-scheduler" class="repo" target="_blank">-Github Repo-</a>' +
 			'</h2></div>' + 
+			'</div>' +
+			'<div class="row">' +
+			'<div class="col-sm">'+
+			'<a href="https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing target="_blank"><img src="assets/images/bamazon.jpg" alt="bamazon" class="image img-responsive" /></a>' +
+			'<h2 class="portfolio-p">' + 
+			'<a href="hhttps://github.com/mbrennecke/bamazon target="_blank">Bamazon node app</a>' + 
+			'<br/>' +
+			'<a href="https://github.com/mbrennecke/bamazon" class="repo" target="_blank">-Github Repo-</a>' +
+			'</h2></div>' +
+			'<div class="col-sm">' +
+			'</div>' +
+			'<div class="col-sm">' +
+			'</div>' + 
 			'</div>'
 		
 		);
