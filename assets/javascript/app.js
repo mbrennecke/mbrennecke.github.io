@@ -17,6 +17,7 @@ $(document).ready(function() {
 
 //Event listner for nav links
 	$(".nav-item").on("click", function(event) {
+		event.preventDefault();
 		var clicked = event.target.id;
 		var addToA = $(this);
 		var addToSpan;
