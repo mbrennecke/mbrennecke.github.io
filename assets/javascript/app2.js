@@ -122,6 +122,30 @@ $(document).ready(function() {
 			}
 		$(".body-container").append(link);
 	}
+
+	function contact() {
+		$(".body-container").empty();
+		$(".body-container").append(
+			'<div class="row">' +
+			'<div class="col">' +
+			'<h2>Contact</h2>' +
+			'</div></div>' +
+			'<div class="row">' +
+			'<div class="col">' +
+			'<form>' +
+			 '<div class="form-group">' +
+			'<label for="name">Name:</label>' +
+			'<input type="text" class="form-control" id="name" placeholder="John Smith"></div>' +
+			'<div class="form-group">' +
+			'<label for="email">Email:</label>' +
+			'<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com"></div>' +
+			'<div class="form-group">' +
+			'<label for="message">Message:</label>' +
+			'<textarea class="form-control" id="message" rows="5"></textarea></div>' +
+			'<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>' +
+			'</form></div></div>'
+		);
+	}
 	
 	$(document).on("click", "#btn-submit", function(event) {
 		event.preventDefault();
