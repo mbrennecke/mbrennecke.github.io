@@ -74,17 +74,19 @@ $(document).ready(function() {
 	function about() {
 		$(".body-container").empty();
 		$(".body-container").append(
-		'<div class="row">' + 
-		'<div class="col">' +
-		'<h2>About Me</h2>' + 
-		'</div></div>' +
-		'<div class="row">' +
-		'<div class="col main">' +
-		'<img src="assets/images/headshot.jpg" alt="Photo of Matthew Brennecke" id="headshot" class="img-responsive"/>' +
-		'<p>I am working towards a career in full stack development, but enjoy the creativity of front end and the logic of backend design. Strong HTML, CSS, and Javascript/jQuery skills leveraged to make complex back end for clean front end applications in my portfolio. </p>' +
-		'<p>I offer an educationally diverse background culminating in a Bachelors Degree in Computer Information Technology with a minor in Business Informatics.</p>' +
-		'<p>My demonstrated work ethic, professional experience, strong attention to detail, and ability to produce top quality results in deadline driven environments will allow me to succeed in any organization. My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application.</p>' +
-		'</div></div>'
+		`<div class="row">
+		<div class="col">
+		<h2>About Me</h2>
+		</div></div>
+		<div class="row">
+		<div class="col main">
+		<img src="assets/images/headshot.jpg" alt="Photo of Matthew Brennecke" id="headshot" class="img-responsive"/>
+		<p>I am full stack developer, I enjoy the creativity of front end and the logic of backend design. I bring strong HTML, CSS, and Javascript, jQuery, node.js, element, and React knowledge, leveraged to make complex back end for clean front end applications.</p>
+
+		<p>I have a Bachelor’s Degree in Computer Information Systems, with a minor in Business Informatics, as well as several technical certifications. When challenged with a stressful environment I am able to tap deep reserves and rise above.</p>
+
+		<p>My years in technical support have given me a strong troubleshooting ability and determined tenacity that I am able to bring to bear on bug fixing and problem solving when developing an application.</p>
+		</div></div>`
 		);
 	}
 	
@@ -101,11 +103,11 @@ $(document).ready(function() {
 					link += row;
 				}
 					link += col;
-					link += '<a href="' + links[i].link + '" target="_blank"><img src="assets/images/';
-					link += (links[i].image + '" alt="' + links[i].title + '" class="image img-responsive" /></a>');
+					link += `<a href= "${links[i].link}" target="_blank"><img src="assets/images/`;
+					link += `${links[i].image}" alt="${links[i].title}" class="image img-responsive" /></a>`;
 					link += h2;
-					link += ('<a href="' + links[i].link + '" target="_blank">' + links[i].title + '</a><br/>');
-					link += ('<a href="' + links[i].repo + '" class="repo" target="_blank">-Github Repo-</a>');
+					link += `<a href="${links[i].link}" target="_blank">${links[i].title}</a><br/>`;
+					link += `<a href="${links[i].repo}" class="repo" target="_blank">-Github Repo-</a>`;
 					link += '</h2></div>';
 				if (i == 2 || (i + 1)%3 == 0){
 					link += '</div>'
@@ -118,24 +120,24 @@ $(document).ready(function() {
 	function contact() {
 		$(".body-container").empty();
 		$(".body-container").append(
-			'<div class="row">' +
-			'<div class="col">' +
-			'<h2>Contact</h2>' +
-			'</div></div>' +
-			'<div class="row">' +
-			'<div class="col">' +
-			'<form>' +
-			 '<div class="form-group">' +
-			'<label for="name">Name:</label>' +
-			'<input type="text" class="form-control" id="name" placeholder="John Smith"></div>' +
-			'<div class="form-group">' +
-			'<label for="email">Email:</label>' +
-			'<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com"></div>' +
-			'<div class="form-group">' +
-			'<label for="message">Message:</label>' +
-			'<textarea class="form-control" id="message" rows="5"></textarea></div>' +
-			'<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>' +
-			'</form></div></div>'
+			`<div class="row">
+			<div class="col">
+			<h2>Contact</h2>
+			</div></div>
+			<div class="row">
+			<div class="col">
+			<form>
+			<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control" id="name" placeholder="John Smith"></div>
+			<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com"></div>
+			<div class="form-group">
+			<label for="message">Message:</label>
+			<textarea class="form-control" id="message" rows="5"></textarea></div>
+			<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>
+			</form></div></div>`
 		);
 	}
 	
