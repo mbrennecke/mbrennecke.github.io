@@ -18,9 +18,13 @@ var links = [
 	},{
 	link : "https://dry-meadow-80045.herokuapp.com/", image : "burgertime.jpg", title : "Burgertime Sequelized", repo : "https://github.com/mbrennecke/sequelizedburger/"
 	},{
+	link : "https://tranquil-waters-40302.herokuapp.com/", image : "burgertime2.jpg", title : "Burgertime ORM", repo : "https://github.com/mbrennecke/burgertime"
+	},{
 	link : "https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing", image : "liri.jpg", title : "Liri node app", repo : "https://github.com/mbrennecke/liri-node-app/"
 	},{
 	link : "https://drive.google.com/file/d/1MmfniKQxQepnpFAppvSxRn1ONHO-XfGw/view?usp=sharing", image : "wordguess2.jpg", title : "Word Guess node app", repo : "https://github.com/mbrennecke/constructor-word-guess/"
+	},{
+	link : "https://mbrennecke.github.io/Word-Guess-Game/", image : "words.jpg", title : "Word Guess Constructor", repo : "https://github.com/mbrennecke/Word-Guess-Game"
 	},{
 	link : "https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing", image : "bamazon.jpg", title : "Bamazon", repo : "https://github.com/mbrennecke/bamazon/"
 	}];
