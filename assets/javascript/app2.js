@@ -10,6 +10,8 @@ var links = [
 	},{
 	link : "https://limitless-forest-18976.herokuapp.com/", image : "wapo.jpg", title : "WaPo Scraped", repo : "https://github.com/mbrennecke/mongo-scrape"
 	},{
+	link : "https://romantic-heisenberg-36d08e.netlify.com/", image : "clicky.jpg", title : "Clicky", repo : "https://github.com/mbrennecke/clicky-game"
+	},{
 	link : "https://mbrennecke.github.io/TriviaGame/", image : "qa.jpg", title : "Trivia Game", repo : "https://github.com/mbrennecke/TriviaGame/"
 	},{
 	link : "https://mbrennecke.github.io/unit-4-game/", image : "rpg.jpg", title : "Fantasy Card Game", repo : "https://github.com/mbrennecke/unit-4-game/"
