@@ -16,9 +16,13 @@ var links = [
 	},{
 	link : "https://mbrennecke.github.io/unit-4-game/", image : "rpg.jpg", title : "Fantasy Card Game", repo : "https://github.com/mbrennecke/unit-4-game/"
 	},{
+	link : "https://mbrennecke.github.io/Giftastic/", image : "giftastic.jpg", title : "Giftastic", repo : "https://github.com/mbrennecke/Giftastic"
+	},{
 	link : "https://dry-meadow-80045.herokuapp.com/", image : "burgertime.jpg", title : "Burgertime Sequelized", repo : "https://github.com/mbrennecke/sequelizedburger/"
 	},{
 	link : "https://tranquil-waters-40302.herokuapp.com/", image : "burgertime2.jpg", title : "Burgertime ORM", repo : "https://github.com/mbrennecke/burgertime"
+	},{
+	link : "https://mbrennecke.github.io/train-scheduler/", image : "train.jpg", title : "Train Scheduler", repo : "https://github.com/mbrennecke/train-scheduler"
 	},{
 	link : "https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view?usp=sharing", image : "liri.jpg", title : "Liri node app", repo : "https://github.com/mbrennecke/liri-node-app/"
 	},{
