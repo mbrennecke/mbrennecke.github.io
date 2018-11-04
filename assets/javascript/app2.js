@@ -30,7 +30,7 @@ var links = [
 	},{
 	link : "https://drive.google.com/file/d/1nTF2r6afrNXTRzR_GVBle10L7ERjeBJk/view?usp=sharing", image : "bamazon.jpg", title : "Bamazon", repo : "https://github.com/mbrennecke/bamazon/"
 	},{
-	link : "https://mbrennecke.github.io/Word-Guess-Game/", image : "words.jpg", title : "Word Guess Constructor", repo : "https://github.com/mbrennecke/Word-Guess-Game"
+	link : "https://mbrennecke.github.io/Word-Guess-Game/", image : "words.jpg", title : "Word Guess Game", repo : "https://github.com/mbrennecke/Word-Guess-Game"
 	}];
 
 $(document).ready(function() {
