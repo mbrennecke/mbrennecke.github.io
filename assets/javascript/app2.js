@@ -2,7 +2,9 @@ var links = [
 	{
 	link : "https://mbrennecke.github.io/Group-Project-1/", image : "beer-buddies.jpg", title : "Beer Bound", repo : "https://github.com/mbrennecke/Group-Project-1/"
 	},{
-	link : "https://lit-savannah-32423.herokuapp.com/", image : "pencilme.jpg", title : "Pencil Me In", repo : "https://github.com/mbrennecke/group-project-2/"
+	link : "https://pencil-me-in.herokuapp.com/", image : "pencilme.jpg", title : "Pencil Me In", repo : "https://github.com/mbrennecke/group-project-2/"
+	},{
+	link : "https://read-local.herokuapp.com/", image : "readlocal.jpg", title : "Read Local", repo : "https://github.com/bry-an/read-local"
 	},{
 	link : "https://tranquil-retreat-98680.herokuapp.com/", image : "friend.jpg", title : "Friend Finder", repo : "https://github.com/mbrennecke/friend-finder/"
 	},{
