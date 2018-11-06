@@ -1,6 +1,6 @@
 var links = [
 	{
-	link : "https://mbrennecke.github.io/Group-Project-1/", image : "beer-buddies.jpg", title : "Beer Bound", repo : "https://github.com/mbrennecke/Group-Project-1/"
+	link : "https://jpmatlock.github.io/Beer-Bound-Brewery-Finder/", image : "beer-buddies.jpg", title : "Beer Bound", repo : "https://github.com/JPMatlock/Beer-Bound-Brewery-Finder"
 	},{
 	link : "https://pencil-me-in.herokuapp.com/", image : "pencilme.jpg", title : "Pencil Me In", repo : "https://github.com/mbrennecke/group-project-2/"
 	},{
@@ -117,7 +117,7 @@ $(document).ready(function() {
 					link += row;
 				}
 					link += col;
-					link += `<a href= "${links[i].link}" target="_blank"><img src="assets/images/`;
+					link += `<a href= "${links[i].link}" target="_blank" rel="noopener"><img src="assets/images/`;
 					link += `${links[i].image}" alt="${links[i].title}" class="image img-responsive" /></a>`;
 					link += h2;
 					link += `<a href="${links[i].link}" target="_blank">${links[i].title}</a><br/>`;
