@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mbrennecke.github.io",
+  "homepage": "https://mbrennecke.github.io/mbrennecke",
   "dependencies": {
     "firebase": "^5.5.7",
     "react": "^16.5.2",
