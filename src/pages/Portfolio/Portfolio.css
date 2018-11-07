@@ -1,0 +1,62 @@
+.links  {
+	
+	font-family: 'Montserrat', sans-serif;
+	color: #0a0908;
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+.title {
+	text-align: center;
+	margin: 0 0 1rem;
+	font-size: 1.5em;
+	border-bottom: 1px solid #bf132a;
+}
+
+.links p {
+	text-align: center;
+	margin:0;
+}
+
+.siteLinks {
+	background-color: #18435a;
+	position: relative;
+	margin: -8rem 0 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #f7f7ff;
+	text-align: center;
+	z-index: 50;
+	padding: 1rem 2rem;
+}
+
+.site {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0;
+	border-bottom: 1px solid #f7f7ff;
+	padding-bottom: .7rem;
+	font-family: "Cinzel", serif;
+}
+
+h3.site a, h4.repo a {
+	color: #f7f7ff;
+	text-decoration: none;
+}
+
+.repo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding-top: .2rem;
+}
+
+.image {
+	position: relative;
+	z-index: 0;
+}
+
+.tile {
+	width: 300px;
+	margin-left: 8px;
+	margin-bottom: 1rem;
+}

@@ -1,0 +1,59 @@
+#navbar {
+	background-color: #18435a;
+	height: 7rem;
+}
+
+h1 {
+	margin:0;
+}
+
+a.navMainLink {
+	font-family: "Cinzel", serif;
+	color: #f7f7ff;
+	text-decoration: none;
+}
+
+#toggler {
+	display: none;
+}
+
+.link a{
+	font-family: "Cinzel", serif;
+	color: #f7f7ff;
+	text-decoration: none;
+	font-size: 1.5em;
+} 
+
+.first {
+	padding-left: 4rem;
+}
+
+.contain {
+	width: 41px;
+	border: 1.8px solid #f7f7ff;
+	border-radius: 5px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.line {
+	width: 35px;
+	height: 3px;
+	background-color: #f7f7ff;
+	margin: 4px 3px;
+	border-radius: 2px;
+}
+
+.line-top {
+	margin-top: 7px;
+}
+
+.line-bottom {
+	margin-bottom: 7px;
+}
+
+.link a.active {
+	font-size: 1.7em;
+	color: #dcdde2;
+	font-weight: 500;
+}
